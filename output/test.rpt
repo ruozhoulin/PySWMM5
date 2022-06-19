@@ -1,0 +1,252 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.015)
+  --------------------------------------------------------------
+
+  
+  *********************************************************
+  NOTE: The summary statistics displayed in this report are
+  based on results found at every computational time step,  
+  not just on results from each reporting time step.
+  *********************************************************
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... LPS
+  Process Models:
+    Rainfall/Runoff ........ YES
+    RDII ................... NO
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... YES
+    Ponding Allowed ........ NO
+    Water Quality .......... NO
+  Infiltration Method ...... HORTON
+  Flow Routing Method ...... KINWAVE
+  Starting Date ............ 06/23/2014 00:00:00
+  Ending Date .............. 06/23/2014 12:00:00
+  Antecedent Dry Days ...... 0.0
+  Report Time Step ......... 00:05:00
+  Wet Time Step ............ 00:05:00
+  Dry Time Step ............ 01:00:00
+  Routing Time Step ........ 60.00 sec
+  
+  
+[Runoff Quantity Continuity]
+;;               Volume         Depth
+;;            hectare-m            mm
+  
+[Flow Routing Continuity]
+;;               Volume        Volume
+;;            hectare-m      10^6 ltr
+Dry Weather Inflow,0.000,0.000
+Wet Weather Inflow,8.897,88.974
+Groundwater Inflow,0.000,0.000
+RDII Inflow,0.000,0.000
+External Inflow,0.000,0.000
+External Outflow,8.362,83.624
+Flooding Loss,0.511,5.106
+Evaporation Loss,0.000,0.000
+Exfiltration Loss,0.000,0.000
+Initial Stored Volume,0.000,0.000
+Final Stored Volume,0.000,0.003
+Continuity Error (%),0.270
+_[!]_
+  
+  ********************************
+  Highest Flow Instability Indexes
+  ********************************
+  Link G3 (6)
+  Link G8 (6)
+  Link G9 (5)
+  Link C87 (5)
+  Link C88 (5)
+  
+  
+  *************************
+  Routing Time Step Summary
+  *************************
+  Minimum Time Step           :    60.00 sec
+  Average Time Step           :    60.00 sec
+  Maximum Time Step           :    60.00 sec
+  Percent in Steady State     :     0.00
+  Average Iterations per Step :     1.91
+  Percent Not Converging      :     0.00
+  
+  
+  ******************
+  Node Depth Summary
+  ******************
+  
+  ---------------------------------------------------------------------------------
+                                 Average  Maximum  Maximum  Time of Max    Reported
+                                   Depth    Depth      HGL   Occurrence   Max Depth
+  Node                 Type       Meters   Meters   Meters  days hr:min      Meters
+  ---------------------------------------------------------------------------------
+  
+  
+  *******************
+  Node Inflow Summary
+  *******************
+  
+  -------------------------------------------------------------------------------------------------
+                                  Maximum  Maximum                  Lateral       Total        Flow
+                                  Lateral    Total  Time of Max      Inflow      Inflow     Balance
+                                   Inflow   Inflow   Occurrence      Volume      Volume       Error
+  Node                 Type           LPS      LPS  days hr:min    10^6 ltr    10^6 ltr     Percent
+  -------------------------------------------------------------------------------------------------
+  
+;;Flooding refers to all water that overflows a node, whether it ponds or not.
+;;--------------------------------------------------------------------------
+;;                                               Total   Maximum
+;;                   Maximum   Time of Max       Flood    Ponded
+;;          Hours       Rate    Occurrence      Volume    Volume
+;;Node     Flooded       LPS   days hr:min    10^6 ltr   1000 m3
+;;--------------------------------------------------------------------------
+  
+  ***********************
+  Outfall Loading Summary
+  ***********************
+  
+  -----------------------------------------------------------
+                         Flow       Avg       Max       Total
+                         Freq      Flow      Flow      Volume
+  Outfall Node           Pcnt       LPS       LPS    10^6 ltr
+  -----------------------------------------------------------
+  O1                    99.03   1954.75  15717.86      83.624
+  -----------------------------------------------------------
+  System                99.03   1954.75  15717.86      83.624
+  
+  
+  ********************
+  Link Flow Summary
+  ********************
+  
+  -----------------------------------------------------------------------------
+                                 Maximum  Time of Max   Maximum    Max/    Max/
+                                  |Flow|   Occurrence   |Veloc|    Full    Full
+  Link                 Type          LPS  days hr:min     m/sec    Flow   Depth
+  -----------------------------------------------------------------------------
+  C3                   CONDUIT    124.71     0  00:52      1.59    0.69    0.61
+  C6                   CONDUIT    119.81     0  00:52      1.34    0.81    0.67
+  C8                   CONDUIT    126.57     0  00:52      1.59    0.70    0.61
+  C11                  CONDUIT    171.15     0  00:52      1.57    0.59    0.54
+  C13                  CONDUIT    386.17     0  00:52      2.12    0.70    0.62
+  C14                  CONDUIT    581.47     0  00:52      2.33    0.49    0.50
+  C15                  CONDUIT    180.58     0  00:51      4.59    0.58    0.55
+  C16                  CONDUIT    923.63     0  00:52      2.50    0.46    0.48
+  C19                  CONDUIT    123.87     0  00:52      1.69    0.62    0.57
+  C21                  CONDUIT    371.41     0  00:52      2.15    0.66    0.59
+  C22                  CONDUIT    621.93     0  00:52      2.38    0.53    0.52
+  C23                  CONDUIT   1637.87     0  00:53      3.16    0.72    0.63
+  C24                  CONDUIT    959.61     0  00:52      2.63    0.81    0.69
+  C25                  CONDUIT    201.86     0  00:52      1.60    0.71    0.62
+  C26                  CONDUIT    410.28     0  00:52      2.24    0.70    0.62
+  C27                  CONDUIT    538.06     0  00:52      2.30    0.46    0.47
+  C29                  CONDUIT    362.71     0  00:52      1.97    0.71    0.62
+  C30                  CONDUIT    612.75     0  00:52      2.39    0.52    0.51
+  C31                  CONDUIT    840.68     0  00:52      2.43    0.76    0.65
+  C34                  CONDUIT    200.92     0  00:52      2.30    0.78    0.67
+  C35                  CONDUIT   6506.47     0  00:53      4.27    0.63    0.58
+  C36                  CONDUIT  10830.97     0  00:53      5.06    0.75    0.64
+  C37                  CONDUIT  15622.10     0  00:53      5.29    0.71    0.62
+  C38                  CONDUIT   1658.72     0  00:52      3.17    0.73    0.64
+  C39                  CONDUIT   2299.51     0  00:53      2.94    0.76    0.65
+  C40                  CONDUIT   3931.54     0  00:53      3.95    0.58    0.55
+  C41                  CONDUIT    121.33     0  00:52      1.60    0.65    0.60
+  C42                  CONDUIT   1140.80     0  01:00      2.58    1.04    1.00
+  C43                  CONDUIT    128.35     0  00:52      1.63    0.69    0.61
+  C45                  CONDUIT   1416.94     0  00:52      3.07    0.62    0.57
+  C46                  CONDUIT   1189.41     0  00:59      2.80    1.01    1.00
+  C47                  CONDUIT   1275.75     0  00:53      2.91    1.01    0.91
+  C48                  CONDUIT    117.93     0  00:52      1.51    0.68    0.60
+  C50                  CONDUIT    193.06     0  00:52      1.81    0.57    0.54
+  C51                  CONDUIT    227.46     0  00:52      1.89    0.67    0.60
+  C52                  CONDUIT    892.48     0  00:52      2.24    0.90    0.74
+  C53                  CONDUIT   1264.21     0  00:56      2.94    1.01    1.00
+  C54                  CONDUIT   1270.80     0  00:53      2.91    1.01    0.90
+  C55                  CONDUIT    394.10     0  00:52      2.22    0.68    0.60
+  C56                  CONDUIT    250.58     0  00:52      1.97    0.71    0.63
+  C57                  CONDUIT    102.80     0  00:52      1.62    0.52    0.51
+  C58                  CONDUIT    732.07     0  00:52      2.61    0.58    0.55
+  C59                  CONDUIT    329.48     0  00:52      2.15    0.57    0.54
+  C60                  CONDUIT     92.57     0  00:52      1.49    0.51    0.50
+  C61                  CONDUIT    137.51     0  00:52      1.62    0.75    0.65
+  C62                  CONDUIT    729.09     0  00:52      2.48    0.62    0.57
+  C63                  CONDUIT    909.47     0  00:53      2.51    0.81    0.69
+  C69                  CONDUIT   1259.36     0  00:53      2.69    0.63    0.58
+  C72                  CONDUIT   1417.83     0  00:53      2.79    0.70    0.62
+  C73                  CONDUIT   1641.30     0  00:53      3.22    0.70    0.62
+  C74                  CONDUIT   4569.70     0  00:53      3.91    0.72    0.63
+  C75                  CONDUIT   6342.87     0  00:53      4.44    0.58    0.55
+  C76                  CONDUIT   1212.81     0  00:58      2.80    1.03    1.00
+  C77                  CONDUIT    312.17     0  00:52      1.93    0.60    0.56
+  C86                  CONDUIT   1797.23     0  00:53      3.19    0.50    0.50
+  C87                  CONDUIT    125.21     0  00:51      2.05    0.49    0.50
+  C88                  CONDUIT   3558.10     0  00:53      4.49    0.43    0.46
+  C91                  CONDUIT    217.77     0  00:52      2.15    0.53    0.52
+  C95                  CONDUIT    118.06     0  00:52      1.85    0.52    0.52
+  C78                  CONDUIT  15717.86     0  00:53      6.19    0.73    0.63
+  C64                  CONDUIT   1095.47     0  00:53      2.62    0.54    0.52
+  G1                   CONDUIT   4335.95     0  00:53      4.52    0.56    0.53
+  G2                   CONDUIT   1543.57     0  00:53      3.46    0.59    0.55
+  G3                   CONDUIT   2552.49     0  00:52      4.10    0.57    0.54
+  G4                   CONDUIT    938.14     0  00:52      3.20    0.61    0.56
+  G5                   CONDUIT    642.79     0  00:52      2.79    0.44    0.47
+  G6                   CONDUIT    511.47     0  00:52      2.71    0.73    0.63
+  G7                   CONDUIT    297.40     0  00:52      2.01    0.54    0.52
+  G8                   CONDUIT    164.88     0  00:51      1.63    0.53    0.52
+  G9                   CONDUIT   1478.24     0  00:52      2.80    0.74    0.64
+  G10                  CONDUIT    528.24     0  00:52      2.31    0.45    0.47
+  G11                  CONDUIT    367.52     0  00:52      2.30    0.59    0.55
+  G12                  CONDUIT    218.16     0  00:52      1.82    0.66    0.59
+  G13                  CONDUIT    117.42     0  00:52      1.60    0.63    0.57
+  G14                  CONDUIT    264.28     0  00:52      1.92    0.78    0.66
+  G15                  CONDUIT    431.50     0  00:52      2.66    0.60    0.56
+  G16                  CONDUIT    158.19     0  00:52      1.71    0.47    0.48
+  G17                  CONDUIT    723.20     0  00:52      3.01    0.47    0.48
+  G18                  CONDUIT   1296.54     0  00:53      2.87    0.60    0.56
+  G19                  CONDUIT   1140.18     0  00:53      2.70    0.55    0.53
+  G20                  CONDUIT   1006.98     0  00:53      2.65    0.85    0.71
+  G21                  CONDUIT    902.14     0  00:52      2.61    0.76    0.65
+  G22                  CONDUIT    762.17     0  00:52      2.47    0.66    0.59
+  G23                  CONDUIT    565.98     0  00:53      2.25    1.04    0.99
+  G24                  CONDUIT    119.81     0  00:52      1.53    0.69    0.60
+  G25                  CONDUIT    301.45     0  00:52      1.93    0.58    0.54
+  G26                  CONDUIT    124.45     0  00:52      1.59    0.68    0.61
+  G27                  CONDUIT   2060.17     0  00:53      3.06    0.63    0.58
+  G28                  CONDUIT   1909.68     0  00:52      3.17    0.55    0.53
+  G29                  CONDUIT   1367.17     0  00:52      2.65    0.72    0.63
+  G30                  CONDUIT   1126.90     0  00:52      2.77    0.53    0.51
+  G31                  CONDUIT    654.62     0  00:52      2.53    0.52    0.51
+  G32                  CONDUIT    166.62     0  00:52      1.72    0.89    0.74
+  G33                  CONDUIT    206.30     0  00:52      1.84    0.61    0.56
+  G34                  CONDUIT    170.20     0  00:52      1.69    0.93    0.77
+  G35                  CONDUIT     77.98     0  00:53      1.27    1.04    0.91
+  G36                  CONDUIT    148.17     0  00:52      1.62    0.82    0.70
+  G37                  CONDUIT    158.95     0  00:52      1.61    0.07    0.18
+  G38                  CONDUIT      5.57     0  06:09      0.02    1.08    1.00
+  G39                  CONDUIT    661.97     0  00:52      2.29    0.60    0.56
+  G40                  CONDUIT    389.32     0  00:52      2.13    0.71    0.62
+  G41                  CONDUIT     92.55     0  00:52      1.54    0.48    0.49
+  
+  
+  *************************
+  Conduit Surcharge Summary
+  *************************
+  
+  ----------------------------------------------------------------------------
+                                                           Hours        Hours 
+                         --------- Hours Full --------   Above Full   Capacity
+  Conduit                Both Ends  Upstream  Dnstream   Normal Flow   Limited
+  ----------------------------------------------------------------------------
+  C42                         0.35      0.35      0.35      0.32         0.35
+  C46                         0.20      0.20      0.20      0.20         0.20
+  C47                         0.02      0.02      0.02      0.02         0.02
+  C53                         0.12      0.12      0.12      0.13         0.12
+  C54                         0.02      0.02      0.02      0.02         0.02
+  C76                         0.15      0.15      0.15      0.15         0.15
+  G23                         0.05      0.05      0.05      0.07         0.05
+  G35                         0.03      0.03      0.03      0.03         0.03
+  G38                         5.23      5.23      5.23      6.13         5.23
+  
