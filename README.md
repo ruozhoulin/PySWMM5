@@ -1,6 +1,8 @@
 # PySWMM5
 
-This package aims to provide an easy and efficient way to interact with **Storm Water Management Model (SWMM)**, developed by US EPA and widely used in urban stormwater management practices.![](figure/Picture2.png)
+This package aims to provide an easy and efficient way to interact with **Storm Water Management Model (SWMM)**, developed by US EPA and widely used in urban stormwater management practices.
+
+![](figure/Picture1.png)
 
 Specifically, you can do the following things with the help of this program:
 
@@ -49,6 +51,4 @@ swmmRpt = SwmmRpt(databaseName) # all results are stored in swmmRpt
 
 The `PySWMM5` is implemented mainly in two steps. In the first step, the source code of SWMM5 was modified to save simulation results in a database (.db) rather than a text file (.rpt). The modified code was built into a dynamic-link library (DLL) that can be used by many programming languages, such as C++, Python, MATLAB, etc. The next step is to utilize Python and useful packages (Pandas, NetworkX, etc.) to wrap this DLL so that we can achieve mentioned functionalities.
 
-
-
-![](figure/Picture1.png)
+![](figure/Picture2.png)
